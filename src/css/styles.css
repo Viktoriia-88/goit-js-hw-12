@@ -137,12 +137,22 @@ button:focus {
   margin-bottom: 0;
 }
 
+.button.load-more {
+  width: 126px;
+  margin-top: 32px;
+}
+
+.button.load-more:hover,
+.button.load-more:focus {
+  background-color: #6c8cff;
+}
+
 /* #region loader */
 
 .loader {
   width: 150px;
   height: 150px;
-  background-color: #92ffff;
+  background-color: #ff8400;
   border-radius: 50%;
   position: relative;
   box-shadow: 0 0 30px 4px rgba(0, 0, 0, 0.5) inset,
