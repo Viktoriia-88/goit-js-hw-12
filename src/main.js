@@ -37,8 +37,8 @@ async function searchImg(event) {
     clearGallery();
     form.reset();
     
-  btnMore.hidden = true;
-  loader.hidden = false;
+    btnMore.hidden = true;
+    loader.hidden = false;
 
   try {
     const data = await fetchImg(currentQuery, currentPage);
